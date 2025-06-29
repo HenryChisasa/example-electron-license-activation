@@ -20,14 +20,24 @@ own account's values.
 
 ```bash
 # Your Keygen account's DER encoded Ed25519 verify key
-KEYGEN_VERIFY_KEY="MCowBQYDK2VwAyEA6GAeSLaTg7pSAkX9B5cemD0G0ixCV8/YIwRgFHnO54g="
+KEYGEN_VERIFY_KEY="MCowBQYDK2VwAyEAISgWlvFPbW3uPuMQA1ETeMM8rgaVCja74z2DK/61g9w="
 
 # Your Keygen account ID
-KEYGEN_ACCOUNT_ID="1fddcec8-8dd3-4d8d-9b16-215cac0f9b52"
+KEYGEN_ACCOUNT_ID="042956e8-9fde-4696-a966-96a6034ff804"
 
 # Your Keygen product ID
-KEYGEN_PRODUCT_ID="7071feff-b5f3-434a-83c1-3ab3f3592325"
+KEYGEN_PRODUCT_ID="00e171b2-1644-4506-9ec2-146aa28e4ed1"
 ```
+
+To create a product for this Electron app in the Keygen dashboard:
+
+1. Go to your [Keygen dashboard](https://app.keygen.sh/products).
+2. Click **New Product**.
+3. Enter a name (e.g., "Electron License Manager") and optional details.
+4. Click **Create**.
+5. Copy the generated Product ID and replace the value of `KEYGEN_PRODUCT_ID` above with your new Product ID.
+
+This links your app to the product you manage in Keygen.
 
 Next, install dependencies with [`yarn`](https://yarnpkg.comg):
 
